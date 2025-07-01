@@ -1,14 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-examples", "spine-unity-examples.csproj", "{D18A4378-D552-095F-7E27-829D61510043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity", "spine-unity.csproj", "{3173712D-0194-9182-D2A5-488D45E88253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-editor", "spine-unity-editor.csproj", "{EE607644-C2C2-77D9-D98E-6FCF0B9FD8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-examples-editor", "spine-unity-examples-editor.csproj", "{E6C6E7CD-D0C2-7BCE-1129-942E28CF3769}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{D18A4378-D552-095F-7E27-829D61510043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18A4378-D552-095F-7E27-829D61510043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18A4378-D552-095F-7E27-829D61510043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18A4378-D552-095F-7E27-829D61510043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3173712D-0194-9182-D2A5-488D45E88253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3173712D-0194-9182-D2A5-488D45E88253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3173712D-0194-9182-D2A5-488D45E88253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3173712D-0194-9182-D2A5-488D45E88253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE607644-C2C2-77D9-D98E-6FCF0B9FD8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE607644-C2C2-77D9-D98E-6FCF0B9FD8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE607644-C2C2-77D9-D98E-6FCF0B9FD8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE607644-C2C2-77D9-D98E-6FCF0B9FD8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C6E7CD-D0C2-7BCE-1129-942E28CF3769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C6E7CD-D0C2-7BCE-1129-942E28CF3769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C6E7CD-D0C2-7BCE-1129-942E28CF3769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C6E7CD-D0C2-7BCE-1129-942E28CF3769}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
