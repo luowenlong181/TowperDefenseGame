@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5379659397909833774}
   - component: {fileID: 7453329377553936452}
   - component: {fileID: 6821243407401697246}
+  - component: {fileID: 7825074719795616338}
+  - component: {fileID: 3443934011195884295}
   m_Layer: 0
   m_Name: Spine GameObject (sword)
   m_TagString: Untagged
@@ -60,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4594eaf92853628429b381dd3a519407, type: 2}
+  - {fileID: 2100000, guid: 1aed9824a112ba6438961c2ce01e4620, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -119,3 +121,46 @@ MonoBehaviour:
   _animationName: 
   loop: 1
   timeScale: 1
+--- !u!114 &7825074719795616338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115911630260353251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 763a25ea121460349b136844a62e264b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spineCharacter: {fileID: 6821243407401697246}
+  moveSpeed: 5
+  useRigidbody: 0
+  characterRigidbody: {fileID: 3443934011195884295}
+  idleAnimation: unit_wait
+  walkAnimation: unit_walk
+  animationBlendTime: 0.2
+  enableKeyboard: 1
+  flipDirection: 0
+  followCamera: {fileID: 0}
+--- !u!50 &3443934011195884295
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115911630260353251}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
