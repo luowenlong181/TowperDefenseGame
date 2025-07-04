@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: spear_Atlas
   m_EditorClassIdentifier: 
-  atlasFile: {fileID: 4900000, guid: 212c10796cadf5040abf9dab3075ad9c, type: 3}
+  atlasFile: {fileID: 4900000, guid: c2b077ddc87c90747a1197ef1712236e, type: 3}
   materials:
-  - {fileID: 2100000, guid: 92014f4d3100d5343b61990fb189d2e2, type: 2}
+  - {fileID: 2100000, guid: 2b291d6833571c945b1c2141b7de1b0b, type: 2}

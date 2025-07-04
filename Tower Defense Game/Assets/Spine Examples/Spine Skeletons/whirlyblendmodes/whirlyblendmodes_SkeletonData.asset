@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: whirlyblendmodes_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: db7ac54cc9ef711408d53c53b765b9a3, type: 2}
+  - {fileID: 11400000, guid: 3c5eff49cb0ae6141851225e61226aa8, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: 1a6f51aad0fef5a40aeedfeec5c0b8b2, type: 3}
   isUpgradingBlendModeMaterials: 0

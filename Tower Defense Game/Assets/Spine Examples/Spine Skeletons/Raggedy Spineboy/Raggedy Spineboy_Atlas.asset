@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Raggedy Spineboy_Atlas
   m_EditorClassIdentifier: 
-  atlasFile: {fileID: 4900000, guid: bdfc7a081d52b68499e44aa82689a73d, type: 3}
+  atlasFile: {fileID: 4900000, guid: 23b188786bd14b44d81b6ba5baae002d, type: 3}
   materials:
-  - {fileID: 2100000, guid: 4ad4f7167d4983147ad870f93ebc9416, type: 2}
+  - {fileID: 2100000, guid: a8019d6ee019b3b42949a1e7b394a313, type: 2}

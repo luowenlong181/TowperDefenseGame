@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: mix-and-match-pma_Atlas
   m_EditorClassIdentifier: 
-  atlasFile: {fileID: 4900000, guid: 9b5072c1342a08b429b2bbfa38e83bab, type: 3}
+  atlasFile: {fileID: 4900000, guid: b83dc50ebfe36b440850b691c88dabcd, type: 3}
   materials:
-  - {fileID: 2100000, guid: f68af5332bca5ef49a0bb6a25be1a8e5, type: 2}
+  - {fileID: 2100000, guid: 44fe3244a6c03b843becde84d6ccc1d8, type: 2}
