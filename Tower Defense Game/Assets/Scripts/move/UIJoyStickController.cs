@@ -27,6 +27,10 @@ public class UIJoyStickController : MonoBehaviour, IDragHandler, IEndDragHandler
         var handleImage = joystickHandle.GetComponent<Image>();
         if (handleImage != null) handleImage.raycastTarget = false;
     }
+    void Start()
+    {
+        //MonsterDatabase.Instance.PrintAllMonsters();
+    }
 
     public void OnPointerDown(PointerEventData eventData)
     {
